@@ -1,0 +1,349 @@
+{
+  "commands": [
+    {
+      "name": "test",
+      "alias": [],
+      "desc": "deo can biet",
+      "syntax": "{p}test",
+      "perm": 1,
+      "cd": 30.0,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "listen",
+      "desc": "bat/tat nhan lenh cho nhom",
+      "syntax": "{p}listen",
+      "alias": [],
+      "perm": 3,
+      "cd": 3,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "cmd",
+      "desc": "quan ly lenh bot",
+      "syntax": "{p}cmd <info|alias|cd|perm|toggle>",
+      "alias": [],
+      "perm": 5,
+      "cd": 0,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "menu",
+      "desc": "xem danh sach lenh",
+      "syntax": "{p}menu [số trang] | {p}menu map [admin]",
+      "alias": [
+        "help",
+        "h"
+      ],
+      "perm": 1,
+      "cd": 10.0,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "nhaccuatui",
+      "desc": "nghe nhac tren nct",
+      "syntax": "{p}nhaccuatui",
+      "alias": [
+        "nct"
+      ],
+      "perm": 1,
+      "cd": 10.0,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "source",
+      "desc": "lay thong tin message",
+      "syntax": "{p}source",
+      "alias": [
+        "obj"
+      ],
+      "perm": 1,
+      "cd": 10.0,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "silent",
+      "desc": "silent may thg ngoo",
+      "syntax": "{p}silent",
+      "alias": [
+        "mute"
+      ],
+      "perm": 2,
+      "cd": 5,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "hide",
+      "desc": "hong biet j het",
+      "syntax": "{p}hide",
+      "alias": [],
+      "perm": 4,
+      "cd": 5,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "keysilver",
+      "desc": "them/xoa key bac",
+      "syntax": "{p}keysilver",
+      "alias": [],
+      "perm": 4,
+      "cd": 5,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "eval",
+      "desc": "chay 1 cai j ds",
+      "syntax": "{p}eval",
+      "alias": [],
+      "perm": 4,
+      "cd": 5,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "admin",
+      "desc": "them/xoa admin",
+      "syntax": "{p}admin",
+      "alias": [],
+      "perm": 4,
+      "cd": 5,
+      "on": true,
+      "author": "Ly Hoang Khang"
+    },
+    {
+      "name": "mybot",
+      "alias": [
+        "mb"
+      ],
+      "desc": "quan ly multi bot",
+      "syntax": "{p}mybot <create|list|start|stop|restart|delete|run>",
+      "perm": 5,
+      "cd": 1.0,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "tree",
+      "alias": [
+        "info",
+        "status"
+      ],
+      "desc": "xem thong tin bot",
+      "syntax": "{p}tree [full]",
+      "perm": 5,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "prefix",
+      "alias": [],
+      "desc": "xem prefix hien tai",
+      "syntax": "{p}prefix [prefix]",
+      "perm": 1,
+      "cd": 30,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "sticker",
+      "alias": [
+        "stk"
+      ],
+      "desc": "tao sticker",
+      "syntax": "{p}sticker",
+      "perm": 1,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "leave",
+      "alias": [],
+      "desc": "roi nhom",
+      "syntax": "{p}leave",
+      "perm": 4,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "kick",
+      "alias": [
+        "kiss"
+      ],
+      "desc": "kick 1 ng nao ds",
+      "syntax": "{p}kick",
+      "perm": 4,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "join",
+      "alias": [],
+      "desc": "tham gia nhom bang link",
+      "syntax": "{p}join",
+      "perm": 4,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "getlink",
+      "alias": [
+        "gl",
+        "gurl"
+      ],
+      "desc": "lay link",
+      "syntax": "{p}getlink",
+      "perm": 1,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "soundcloud",
+      "alias": [
+        "scl"
+      ],
+      "desc": "nghe nhac tren scl",
+      "syntax": "{p}soundcloud",
+      "perm": 1,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "alo",
+      "alias": [],
+      "desc": "hong biet j het",
+      "syntax": "{p}alo",
+      "perm": 4,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "all",
+      "alias": [],
+      "desc": "hong biet j het",
+      "syntax": "{p}alo",
+      "perm": 4,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "iu",
+      "alias": [],
+      "desc": "tui iu b lam a",
+      "syntax": "{p}iu",
+      "perm": 4,
+      "cd": 5.0,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "restart",
+      "alias": [],
+      "desc": "khoi dong lai bot",
+      "syntax": "{p}restart",
+      "perm": 5,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "image",
+      "alias": [],
+      "desc": "gui anh cn meo",
+      "syntax": "{p}image",
+      "perm": 1,
+      "cd": 10.0,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "meo",
+      "alias": [],
+      "desc": "con meo bj ma am",
+      "syntax": "{p}meo",
+      "perm": 1,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "fakequote",
+      "alias": [
+        "fq"
+      ],
+      "desc": "hong biet j het",
+      "syntax": "{p}fakequote",
+      "perm": 1,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "stkzl",
+      "alias": [],
+      "desc": "sticker zalo",
+      "syntax": "{p}stkzl",
+      "perm": 4,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "tts",
+      "alias": [],
+      "desc": "doc 1 cai j ds",
+      "syntax": "{p}tts",
+      "perm": 1,
+      "cd": 10,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "group",
+      "alias": [],
+      "desc": "quan ly nhom",
+      "syntax": "{p}group",
+      "perm": 4,
+      "cd": 10.0,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+	{
+      "name": "anime",
+      "alias": [],
+      "desc": "wibu",
+      "syntax": "{p}anime",
+      "perm": 1,
+      "cd": 10.0,
+      "author": "Ly Hoang Khang",
+      "on": true
+    },
+    {
+      "name": "download",
+      "alias": [],
+      "desc": "tai video",
+      "syntax": "{p}download",
+      "perm": 4,
+      "cd": 10.0,
+      "author": "Ly Hoang Khang",
+      "on": true
+    }
+  ]
+}

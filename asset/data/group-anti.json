@@ -1,0 +1,23 @@
+{
+    "antilink": {},
+    "antivoice": {},
+    "antiphoto": {},
+    "antivideo": {},
+    "antisticker": {},
+    "antilocation": {},
+    "antigif": {},
+    "antifile": {},
+    "anticard": {},
+    "antisdt": {},
+    "antiforward": {},
+    "antispam": {},
+    "auto_approve": {},
+    "violations": {},
+    "permanent_violations": {},
+    "spam_tracking": {},
+    "spam_warned": {},
+    "spam_notified": {},
+    "spam_action_time": {},
+    "forward_count": {},
+    "config": {}
+}
